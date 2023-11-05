@@ -50,7 +50,7 @@ td {
   text-align: left;
 }
 
-/* when the markAsDone function is called, apply these properties */
+/* when the markDone function is called, apply these properties */
 .done {
   text-decoration: line-through;
   color: #888;
