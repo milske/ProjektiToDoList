@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  margin: 0;
+}
+
+form {
+  margin: 40px 0;
+}
+
+/* styling for the id "taskfield" */
+#taskfield {
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+#Insert {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin: 15px;
+}
+
+/* when hovering on top of the id "insert" (inser button), the colour changes */
+#Insert:hover {
+  background-color: #219527;
+}
+
+#errorText {
+  color: red;
+  font-size: small;
+}
+
+table {
+  width: 60%;
+  margin: 20px auto;
+  background-color: #fff;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* when the markAsDone function is called, apply these properties */
+.done {
+  text-decoration: line-through;
+  color: #888;
+}
